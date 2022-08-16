@@ -1,23 +1,5 @@
 function [YO,FP,FN,NumberofTestingData,TrainingTime, TestingTime, TrainingAccuracy, TestingAccuracy,TY]=ELM_BA(train_data,test_data, Elm_Type,NumberofHiddenNeurons);
-% ============================================================   % 
-% Files of the Matlab programs included in the book:             %
-% Xin-She Yang, Nature-Inspired Metaheuristic Algorithms,        %
-% Second Edition, Luniver Press, (2010).   www.luniver.com       %
-% ============================================================   %    
 
-% ------------------------------------------------------------   %
-% Bat-inspired algorithm for continuous optimization (demo)      %
-% Programmed by Xin-She Yang @Cambridge University 2010          %
-% For details, please see the following papers:
-% 1) Xin-She Yang, Bat algorithm for multi-objective optimization, 
-% Int. J. Bio-Inspired Computation, Vol.3, No.5, 267-274 (2011).
-% 2) Xin-She Yang, Xingshi He, Bat Algorithm: Literature Review
-% and Applications, Int. J. Bio-Inspired Computation,
-% Vol. 5, No. 4, pp. 141-149 (2013).
-% ------------------------------------------------------------   %
-% The main part of the Bat Algorithm                       % 
-% Usage: bat_algorithm([20 0.25 0.5]);                     %
-% Default parameters
 % para=20;  
 n=20;      % Population size, typically 10 to 25
 A=1.6;      % Loudness  (constant or decreasing)
